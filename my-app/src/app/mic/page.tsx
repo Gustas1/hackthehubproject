@@ -1,17 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Recording from '../components/Recording'
+import Scammeter from '../components/Scammeter'
+import Dialogue from '../components/Dialogue'
+import HPhrases from '../components/HPhrases'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
-    <main className="antialiased bg-white relative">
+    <main className="antialiased bg-[#f6ecfe] relative">
       <header className = "container">
         <Navbar />
-        <div className="mt-20 text-center">
-            <h1>This is the demo page</h1>
-            <p>Target here</p>
-        </div>
+        
       </header>
     </main>
   )

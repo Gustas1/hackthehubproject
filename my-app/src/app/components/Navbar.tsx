@@ -5,15 +5,13 @@ type Props = {}
 
 const Navbar = (props: Props) => {
   return (
-    <div className = "mt-6 flex justify-between">
-        <h1>Project-Name</h1>
+    <div className = "flex justify-between sticky top-0 w-full bg-[#f6ecfe] pt-10">
+        <h1 className = 'border-b-2 border-transparent hover:border-purple-600'><Link href = "/">Scam Detect</Link></h1>
         <nav>
             <ul className = "flex gap-x-6">
-                <li className = 'hover:border-b-2 border-purple-600'><Link href = "/mic">Demo</Link></li>
+                <li className = 'border-b-2 border-transparent hover:border-purple-600 '><Link href = "/mic">Demo</Link></li>
                 <li className = 'hover:border-b-2 border-purple-600'><Link href = "/edcuation">Education</Link></li>
                 <li className = 'hover:border-b-2 border-purple-600'><Link href = "/about">About</Link></li>
-                <li>|</li>
-                <li className = 'hover:border-b-2 border-purple-600'>Dark mode</li>
             </ul>
         </nav>
     </div>
