@@ -12,7 +12,6 @@ Languages used:
 > JS
 > Flask
 > ChatGPT API
-> Whisper API
 
 Designed in:
 > Figma
