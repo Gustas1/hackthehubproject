@@ -7,9 +7,8 @@ This is the read me for the project, there are 4 team members
 > Martin
 
 Languages used:
-> HTML
-> SCSS
-> JS
+> React
+> Tailwind
 > Flask
 > ChatGPT API
 
